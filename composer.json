@@ -13,7 +13,9 @@
     "require": {
         "php": ">=5.3.7",
         "graylog2/gelf-php": "^1.5",
-        "monolog/monolog": "^1.0"
+        "monolog/monolog": "^2.0",
+        "raven/raven": "^0.15.0"
+
     },
     "suggest": {
         "paragonie/random_compat": "Provides better randomness in PHP 5.x"
