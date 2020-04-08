@@ -22,9 +22,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-
-		log_message('error','Some variable did not contain a value.');
-		log_message('info','Some variable did not contain a value.');
+		$query = $this->db->get('CONTACTS'); 
+		print_r($query->result_array());
 		$this->load->view('welcome_message');
 	}
 
